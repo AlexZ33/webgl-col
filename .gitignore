@@ -1,9 +1,22 @@
+
+.DS_Store
+node_modules
+# /dist
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+
+# local env files
+.env.local
+.env.*.local
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # Test binary, built with `go test -c`
 *.test
@@ -13,3 +26,13 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.gitignore
+.gitignore
